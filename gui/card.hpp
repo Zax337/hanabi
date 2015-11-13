@@ -1,6 +1,9 @@
 #ifndef HANABI_GUI_CARD_HPP
 #define HANABI_GUI_CARD_HPP
 
+#include "gui/card.fwd.hpp"
+#include "logic/game.hpp"
+
 #include <QWidget>
 
 namespace hanabi {

@@ -1,6 +1,8 @@
 #ifndef HANABI_GUI_GAME_HPP
 #define HANABI_GUI_GAME_HPP
 
+#include "gui/game.fwd.hpp"
+
 #include <QFrame>
 
 namespace hanabi {

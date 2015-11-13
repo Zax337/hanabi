@@ -1,5 +1,5 @@
-#ifndef PLAYER_HPP
-#define PLAYER_HPP
+#ifndef HANABI_LOGIC_PLAYER_HPP
+#define HANABI_LOGIC_PLAYER_HPP
 
 #include <string>
 
@@ -18,4 +18,4 @@ private:
 }
 }
 
-#endif // PLAYER_HPP
+#endif // HANABI_LOGIC_PLAYER_HPP

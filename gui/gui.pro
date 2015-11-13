@@ -10,7 +10,11 @@ SOURCES += card.cpp \
 HEADERS += card.hpp \
            mainwindow.hpp \
            player.hpp \
-           game.hpp
+           game.hpp \
+    card.fwd.hpp \
+    game.fwd.hpp \
+    mainwindow.fwd.hpp \
+    player.fwd.hpp
 
 #FORMS    += \
 #   game.ui \

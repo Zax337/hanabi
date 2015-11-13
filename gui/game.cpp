@@ -1,4 +1,4 @@
-#include "game.hpp"
+#include "gui/game.hpp"
 
 namespace hanabi {
 namespace gui {

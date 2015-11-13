@@ -1,6 +1,7 @@
-#include "mainwindow.hpp"
-#include "ui_mainwindow.h"
-#include "../logic/game.hpp"
+#include "gui/mainwindow.hpp"
+#include "logic/game.hpp"
+#include "logic/deck.hpp"
+#include "gui/card.hpp"
 
 #include <QPushButton>
 

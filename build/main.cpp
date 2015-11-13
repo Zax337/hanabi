@@ -1,4 +1,4 @@
-#include "../gui/mainwindow.hpp"
+#include "gui/mainwindow.hpp"
 #include <QApplication>
 #include <QWidget>
 

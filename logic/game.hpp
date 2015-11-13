@@ -1,9 +1,10 @@
-#ifndef GAME_HPP
-#define GAME_HPP
+#ifndef HANABI_LOGIC_GAME_HPP
+#define HANABI_LOGIC_GAME_HPP
 
-#include "deck.hpp"
-#include "player.hpp"
-#include "../gui/game.hpp"
+#include "logic/game.fwd.hpp"
+#include "logic/deck.fwd.hpp"
+#include "logic/player.fwd.hpp"
+#include "gui/game.fwd.hpp"
 
 #include <QWidget>
 
@@ -20,11 +21,11 @@ public:
 
 private:
    std::vector<Player *> m_players;
-   std::unique_ptr<Deck> m_deck;
-   std::unique_ptr<gui::Game> m_widget;
+   std::auto_ptr<Deck> m_deck;
+   std::auto_ptr<gui::Game> m_widget;
 };
 
 }
 }
 
-#endif // GAME_HPP
+#endif // HANABI_LOGIC_GAME_HPP

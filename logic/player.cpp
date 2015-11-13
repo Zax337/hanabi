@@ -1,4 +1,4 @@
-#include "player.hpp"
+#include "logic/player.hpp"
 
 namespace hanabi {
 namespace logic {

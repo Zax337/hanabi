@@ -1,4 +1,4 @@
-#include "card.hpp"
+#include "gui/card.hpp"
 
 namespace hanabi {
 namespace gui {

@@ -1,6 +1,7 @@
-#ifndef GUI_PLAYER_HPP
-#define GUI_PLAYER_HPP
+#ifndef HANABI_GUI_PLAYER_HPP
+#define HANABI_GUI_PLAYER_HPP
 
+#include "gui/player.fwd.hpp"
 #include <QFrame>
 
 namespace hanabi {
@@ -15,4 +16,4 @@ public:
 }
 }
 
-#endif /* GUI_PLAYER_HPP */
+#endif /* HANABI_GUI_PLAYER_HPP */

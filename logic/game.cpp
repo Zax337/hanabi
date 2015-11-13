@@ -1,5 +1,4 @@
-#include "game.hpp"
-#include "../gui/game.hpp"
+#include "logic/game.hpp"
 
 namespace hanabi {
 namespace logic {

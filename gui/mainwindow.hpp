@@ -1,7 +1,8 @@
-#ifndef MAINWINDOW_HPP
-#define MAINWINDOW_HPP
+#ifndef HANABI_GUI_MAINWINDOW_HPP
+#define HANABI_GUI_MAINWINDOW_HPP
 
-#include "../logic/game.hpp"
+#include "gui/mainwindow.fwd.hpp"
+#include "logic/game.fwd.hpp"
 
 #include <QMainWindow>
 
@@ -21,11 +22,11 @@ private slots:
    void on_pushButton_clicked();
 
 private:
-   std::unique_ptr<logic::Game> m_curentGame;
-   std::unique_ptr<QWidget> m_centralWidget;
+   std::auto_ptr<logic::Game> m_curentGame;
+   std::auto_ptr<QWidget> m_centralWidget;
 };
 
 }
 }
 
-#endif // MAINWINDOW_HPP
+#endif // HANABI_GUI_MAINWINDOW_HPP

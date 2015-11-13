@@ -1,11 +1,13 @@
-#ifndef DECK_HPP
-#define DECK_HPP
+#ifndef HANABI_LOGIC_DECK_HPP
+#define HANABI_LOGIC_DECK_HPP
+
+#include <logic/deck.fwd.hpp>
+#include <logic/player.hpp>
 
 #include <map>
 #include <memory>
 #include <vector>
 #include <stack>
-#include <../logic/player.hpp>
 
 namespace hanabi {
 namespace logic {
@@ -30,4 +32,4 @@ private:
 }
 }
 
-#endif // DECK_HPP
+#endif // HANABI_LOGIC_DECK_HPP

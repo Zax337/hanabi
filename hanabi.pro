@@ -6,6 +6,9 @@
 
 TARGET = hanabi
 
+IDIR =.
+CFLAGS=-I$(IDIR)
+
 TEMPLATE = subdirs
 SUBDIRS = logic \
           gui

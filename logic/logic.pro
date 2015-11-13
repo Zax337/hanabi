@@ -8,4 +8,7 @@ SOURCES += deck.cpp \
 
 HEADERS  +=  deck.hpp \
     player.hpp \
-    game.hpp
+    game.hpp \
+    deck.fwd.hpp \
+    game.fwd.hpp \
+    player.fwd.hpp
